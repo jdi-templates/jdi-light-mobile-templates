@@ -4,7 +4,7 @@ See here: https://jdi-docs.github.io/jdi-mobile/
 
 ## How to launch web tests on Android emulator  
 
-Stable environment: Java 8, Maven 3.6.3, JDI-Light 1.3.11, TestNG 7.4.0, Aspectj 1.9.*, Appium 1.20.2, Android 10 <br/>
+Stable environment: Java azul-13.0.13, Maven 3.9.5, JDI-Light 1.3.11, TestNG 7.4.0, Aspectj 1.9.*, Appium 1.20.2, Android 10 <br/>
 
 1. Launch Android emulator and wait until home screen is ready.
 1. Launch Appium and find out the listening URL in the console (usually http://0.0.0.0:4723)
@@ -87,8 +87,9 @@ mvn allure:serve
 appium --base-path=/wd/hub  
 ```
 2. pay attention to a terminal where appium is running - there you can see logs and what is going on
-1. see the **src/test/resources/android.properties** to put some properties (might be different according to your environment)
+3. see the **src/test/resources/android.properties** to put some properties (might be different according to your environment)
    1. app= - **Absolute** path to your application under test. (example to run simple tests is here: **src/main/resources/ApiDemos-debug.apk** )
    2. automationName= - name of a testing framework you using(eg. UiAutomator2, Espresso. Appium 2 runs with UiAutomator2)
-1. It is necessary to check if this environment variables a set: JAVA_HOME , ANDROID_HOME, ANDROID_SDK_ROOT, ANDROID_TOOLS (as it is written above)
-2. when you see comment above marked (for Windows) - for other environments you need to do the same but some other way.
+4. It is necessary to check if this environment variables a set: JAVA_HOME , ANDROID_HOME, ANDROID_SDK_ROOT, ANDROID_TOOLS (as it is written above)
+5. To run tests using Maven, you need to make sure that the Java version in the JAVA_PATH environment variable and the Java version in the project match.
+6. when you see comment above marked (for Windows) - for other environments you need to do the same but some other way.
