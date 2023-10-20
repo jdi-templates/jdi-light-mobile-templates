@@ -5,8 +5,8 @@ import com.epam.jdi.light.mobile.elements.common.MobileFileManager;
 import com.epam.jdi.light.mobile.elements.pageobjects.annotations.JApp;
 import com.epam.jdi.light.mobile.elements.pageobjects.annotations.MobileFindBy;
 
-@JApp(appPackage = "com.android.documentsui",
-        appActivity = "com.android.documentsui.files.FilesActivity")
+@JApp(appPackage = "",
+        appActivity = "")
 public class AndroidFileManager {
 
     public static MobileFileManager fileManager;

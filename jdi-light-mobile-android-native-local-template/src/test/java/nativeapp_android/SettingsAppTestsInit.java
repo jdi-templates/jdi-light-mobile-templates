@@ -11,6 +11,7 @@ import static com.epam.jdi.light.mobile.elements.init.PageFactory.initMobile;
 import static com.epam.jdi.light.settings.WebSettings.logger;
 
 public class SettingsAppTestsInit {
+
     @BeforeClass(alwaysRun = true)
     public void setUp() {
         initMobile(SettingsApp.class);
@@ -27,4 +28,5 @@ public class SettingsAppTestsInit {
     public void tearDown() {
         WebDriverFactory.quit();
     }
+
 }

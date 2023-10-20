@@ -5,7 +5,7 @@ import com.epam.jdi.light.mobile.elements.common.app.android.SearchViewField;
 import com.epam.jdi.light.mobile.elements.pageobjects.annotations.JApp;
 import com.epam.jdi.light.mobile.elements.pageobjects.annotations.MobileFindBy;
 
-@JApp(appPackage = "com.android.settings", appActivity = "com.android.settings.Settings")
+@JApp(appPackage = "", appActivity = "")
 public class SettingsApp {
 
     @MobileFindBy(id = "com.android.settings:id/search_action_bar")

@@ -6,7 +6,7 @@ import nativeapp.android.apidemos.animation.CheckboxesPage;
 import nativeapp.android.apidemos.app.*;
 import nativeapp.android.apidemos.views.*;
 
-@JApp(appPackage = "io.appium.android.apis", appActivity = "io.appium.android.apis.ApiDemos")
+@JApp(appPackage = "", appActivity = "")
 public class ApiDemosApp {
 
     public static IndexPage indexPage;
