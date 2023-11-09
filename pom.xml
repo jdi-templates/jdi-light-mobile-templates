@@ -27,6 +27,7 @@
     <modules>
         <module>jdi-light-mobile-android-native-local-template</module>
         <module>jdi-light-mobile-ios-native-local-template</module>
+        <module>apidemos-native-app</module>
     </modules>
 
     <dependencyManagement>
