@@ -10,7 +10,8 @@
     </parent>
 
     <groupId>org.example</groupId>
-    <artifactId>apidemos-native-app</artifactId>
+    <artifactId>jdi-light-mobile-android-native-local-apidemos-app</artifactId>
+    <name>Template: JDI Light Mobile Android Native Local Apidemos App</name>
 
     <properties>
         <maven.compiler.source>13</maven.compiler.source>

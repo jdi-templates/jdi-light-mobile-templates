@@ -3,7 +3,6 @@ package nativeapp.android.apidemos;
 import com.epam.jdi.light.mobile.elements.pageobjects.annotations.JApp;
 import nativeapp.android.apidemos.animation.AnimationPage;
 import nativeapp.android.apidemos.animation.CheckboxesPage;
-import nativeapp.android.apidemos.appPages.*;
 import nativeapp.android.apidemos.appPages.ActionBarDisplayOptionsPage;
 import nativeapp.android.apidemos.appPages.ActionBarPage;
 import nativeapp.android.apidemos.appPages.ActionBarUsagePage;
